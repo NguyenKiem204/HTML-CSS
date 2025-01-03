@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 300px auto 0;
+
+    /* clip-path: circle(50% at 50% 50%(x y) ); */
+    /* clip-path: inset(10px 20px round 10px 30px); Hình chữ nhật*/
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    /* border-radius: 10px 10px 0 0; */
+}

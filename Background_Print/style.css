@@ -1,0 +1,21 @@
+.bg{
+    height: 300px;
+    margin-top: 20px;
+
+}
+.bg1{
+    background: url(https://images.unsplash.com/photo-1711126978286-16424ccdd787?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover;
+}
+.bg2{
+    background: orange;
+}
+@media print{
+    body{
+        print-color-adjust: exact !important;
+       -webkit-print-color-adjust: exact !important;
+   }
+   .bg2{
+    background: black;
+   }
+}
+/* Phải đạt ở cuối thì mới hoạt động dc cái thuộc tính khác như .bg2 */

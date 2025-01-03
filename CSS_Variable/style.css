@@ -1,0 +1,53 @@
+:root{
+    --primary-color:#1473e6;
+    --bien-a:50px; 
+    /* Khai báo Global */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.heading{
+    font-size: var(--bien-a);
+    margin-top: 80px;
+    position: relative;
+    margin: 20px;
+}
+.heading::before{
+    --dai-rong: 10px;/*khai báo cục bộ, và biến cục bộ dc ưu tiên hơn biêns toàn cục*/
+    content: "";
+    display: inline-block;
+    width: var(--dai-rong);
+    height: 10px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    position: relative;
+    top:-10px;
+    margin-right: 10px;
+}
+.heading::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 550px;
+    height: 5px;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+}
+a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px 16px;
+}

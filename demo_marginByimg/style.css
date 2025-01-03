@@ -1,0 +1,30 @@
+.box{
+    width: 50x;
+    height: 50px;
+    
+}
+.box+.box{
+    margin-left: -23px;
+}
+ul{
+    width: 100%;
+    background-color: bisque;
+}
+ul li{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    float: left;
+    background-color: #ccc;
+    
+
+}
+ul li a{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+
+}
+ul li a:hover{
+    background-color: #97caff;
+}

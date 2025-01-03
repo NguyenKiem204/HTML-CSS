@@ -1,0 +1,21 @@
+body{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    /* Đặt biến heading = 0 */
+    counter-reset: heading;
+}
+h2{
+    counter-increment: heading;
+    counter-reset: headh3;
+}
+h3{
+    counter-increment: headh3;
+    /* gặp h3 thì nó sẽ tăng lên 1 */
+}
+h2::before{
+ content: counter(heading) ". ";
+}
+h3::before{
+    content: counter(heading) "." counter(headh3) " ";
+}

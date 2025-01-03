@@ -1,0 +1,11 @@
+a:link{   /* Link chưa truy cập */
+    color: red;
+}
+a:visited { /*Link đã truy cập */
+    color: rgb(52, 33, 223);
+}
+a{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}

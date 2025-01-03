@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://scalingfrontiers.com/wp-content/uploads/2022/01/pcc-coaching-1024x671.jpg);
+}
+.bdf{
+    height: 100px;
+    background-color: #393737;
+}
+@supports (backdrop-filter: blur(15px)) or 
+(-webkit-backdrop-filter: blur(15px)){
+    .bdf{
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(15px) brightness(30%);
+    } 
+}
+
+/* backdrop-filter: blur(2px);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(180%);
+backdrop-filter: grayscale(100%);
+backdrop-filter: hue-rotate(180deg);
+backdrop-filter: invert(80%);
+backdrop-filter: opacity(50%);
+backdrop-filter: saturate(7);
+backdrop-filter: sepia(100%);
+backdrop-filter: drop-shadow(8px 8px 10px green);
+backdrop-filter: none; */

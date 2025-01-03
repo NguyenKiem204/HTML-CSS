@@ -1,0 +1,11 @@
+blockquote {
+    border-left: 5px solid #333;
+    padding-left: 4px;
+    background-color: #e2e0e0;
+}
+div {
+    display: inline-block;
+    border-width: 40px;
+    border-color: green transparent transparent transparent;
+    border-style: solid;
+}

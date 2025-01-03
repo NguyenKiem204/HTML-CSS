@@ -1,0 +1,19 @@
+/* 
+[attribute^=value]	a[href^="https"]	Selects every <a> element whose href attribute value begins with "https"
+[attribute$=value]	a[href$=".pdf"]	Selects every <a> element whose href attribute value ends with ".pdf"
+[attribute*=value]	a[href*="w3schools"]	Selects every <a> element whose href attribute value contains the substring "w3schools"
+ */
+ a[href^="https://"]{
+    color:red;
+    font-size: 20px;
+ }
+
+ a[href$=".jpd"]{
+    color:green;
+    font-size: 25px;
+ }
+
+ a[href*="ebook.com/"]{
+    color:orange;
+    font-size: 25px;
+ }

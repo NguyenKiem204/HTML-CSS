@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+body {
+    padding: 20px;
+}
+.first-conten{
+    font-style: italic;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #bfbdbd;
+    padding-bottom: 15px;
+    margin: 30px 0px;
+    
+}
+p {
+    margin: 10px 0px;
+    font-size: 2.5rem;
+}
+.img-student {
+    max-width: 100%;
+}
+figcaption{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 8px 0px;
+}
+a .pep-troc {
+    max-width: 8%;
+    border-radius: 80%;
+    margin-top: 5px;
+}
+.pep{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.during-coro, .student-conten{
+    font-size: 3rem;
+    font-weight: 600;
+    border-left: 4px solid #4cd5ff;
+    padding-left: 6px;
+    margin-top: 30px;
+}
+blockquote {
+    color: #5A5A5A;
+    border-left: solid #bfbdbd;
+    padding-left: 8px;
+
+}
+blockquote p{
+    font-size: 2.2rem;
+}
+blockquote p:first-child{
+    margin-top: 20px;
+}
+ul li{
+    padding: 8px 16px;
+    font-size: 2.5rem;
+}
+ul{
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 10px;
+    background-color: red;
+    padding: 8px 16px;
+    color: aliceblue;
+    border: 2px double #5A5A5A;
+    border-radius: 20px;
+    transition: ease .25;
+    margin-left: 50%;
+
+    
+}
+.btn:hover{
+    color: black;
+    background-color: aliceblue;
+    font-weight: 600;
+    border-color: red;
+}
+.contents{
+    margin: 0 auto;
+    width: 800px;
+}
+
+

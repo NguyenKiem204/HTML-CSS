@@ -1,0 +1,6 @@
+h1:active{
+    color: red;
+}
+h1 {
+    user-select: none;
+}

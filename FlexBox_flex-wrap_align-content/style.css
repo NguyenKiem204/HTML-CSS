@@ -1,0 +1,20 @@
+.container{
+    display: flex; 
+    min-height: 200px;
+    background: greenyellow;
+    flex-wrap: wrap;
+    /* - wrap
+    - wrap-reverse
+    Mặ định khi không sử dụng flex-wrap thì cái item trong container không dc xuống hàng và chiều rộng của nó không đúng với độ rộng của mình đặt*/
+     align-content: space-evenly;
+     /*căn theo chiều cao */
+     /* Điều kiện sử dụng là phải 2 hàng trở lên khác với align-item */
+     /* stretch, flex-start, flex-end, space-around, space-between, space-evenly*/
+}
+.item{
+    background: #d2e8fc;
+    font-weight: 600;
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 4px;
+}

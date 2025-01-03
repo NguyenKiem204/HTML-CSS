@@ -1,0 +1,10 @@
+p{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px dotted #000;
+    background-color: #ccc;
+    /*overflow: scroll;  nó sẽ có thanh cuộn cho dù nội dung khuông vượt quá */
+    overflow: hidden auto; /*nó sẽ tự động có thanh cuộn nếu độ dài vượt quá còn không thi không có (giá trị đầu tiên à cuộn ngang, giá trị thứ hai là thanh cuộn dọc */
+
+}

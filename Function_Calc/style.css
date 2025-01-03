@@ -1,0 +1,10 @@
+.box{
+    background: orange;
+    width: calc(100% - 50px);
+    height: 200px;
+    margin: 0 auto;
+}
+.box2{
+    height: calc(100vh - 200px);
+    background: green;
+}

@@ -1,0 +1,17 @@
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color:  blue;
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color:  blue; 
+}
+.box-1:empty{ /* Không có nội dung là nó thực thi */
+    background-color: red;
+}
+
+.box-2:empty{
+    background-color: red;
+}

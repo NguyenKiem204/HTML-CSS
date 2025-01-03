@@ -1,0 +1,18 @@
+
+.box-1{
+    background-color: green;
+}
+.box-2{
+    background: red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.box-3{
+    background: blueviolet;
+}
+.content{
+    height: 100px;
+    background-color: #333;
+    position: relative;
+}

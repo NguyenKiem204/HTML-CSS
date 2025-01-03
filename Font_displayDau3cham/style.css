@@ -1,0 +1,8 @@
+h1{
+    background-color: orangered;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* số dòng khi vượt quá */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

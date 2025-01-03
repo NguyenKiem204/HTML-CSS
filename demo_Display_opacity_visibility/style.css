@@ -1,0 +1,10 @@
+input:checked ~ div {
+    display: none;
+}
+/* div {
+    transition: 0.75s;
+}
+input:checked ~ div {
+    visibility: hidden;
+    opacity: 0;
+} */

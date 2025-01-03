@@ -1,0 +1,14 @@
+.icon{
+    width: 20px;
+    height: 20px;
+    background-image: url(/image/icon\ faceb.png);
+    background-size: 25px 1448px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon-1{
+    background-position: 0px -760px;
+}
+.icon-2{
+    background-position: 0px -907px;
+}

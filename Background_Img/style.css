@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ul{
+    width: 100%;
+    background-color: bisque;
+} */
+ul li{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    float: left;
+    background-color: transparent;
+    margin-top: 7px;
+
+}
+ul li a{
+    padding:6px 16px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    max-width: 150px;
+
+}
+ul li:first-child{
+    margin-left: 60px;
+
+}
+
+ul li a:hover{
+    background-color: #97caff;
+}
+ul.prd-1 li:nth-child(2){
+    background-color: #97caff;
+}
+.ctn1{
+    height: 40px;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    
+    
+}
+.ctn2{
+    height: 100vh;
+    background-image: url(https://www.w3schools.com/cssref/img_tree.gif),
+    url(https://freefrontend.com/assets/img/css-background-patterns/2023-3d-lighted-cubes-tessellated-pattern-pure-css.png);
+}

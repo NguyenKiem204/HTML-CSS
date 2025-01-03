@@ -1,0 +1,21 @@
+.btn{
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+
+    pointer-events: none;
+}
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+
+    pointer-events: none;
+    /* Trường hợp dùng để chặn người dùng tải hình ảnh xuống bằng cách sử dụng pointer-event:none; auto(default) */
+}

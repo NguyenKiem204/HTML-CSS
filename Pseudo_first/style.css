@@ -1,0 +1,12 @@
+p::first-line{
+    color: red;
+    font-weight: 600;
+}
+p::first-letter{
+    font-size: 50px;
+    
+}
+
+.white-sp{
+    white-space: pre;
+}

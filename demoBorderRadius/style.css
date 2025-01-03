@@ -1,0 +1,16 @@
+
+div.box2 {
+    width: 400px;
+    height: 200px;
+    background-color: chocolate;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.box1{
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    border-radius: 15px 35px 65px 75px;
+    
+}

@@ -1,0 +1,12 @@
+.ctn{
+    height: 400px;
+    background-color: #ccc;
+    overflow: scroll;
+    margin-top: 50px;
+}
+h2{ 
+    position: sticky;
+    top: 0;
+    background-color: coral;
+   
+}

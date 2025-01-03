@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 25px;
+    width: 800px;
+    margin: 0 auto;
+}
+.modal, .overlay{
+    position: fixed;
+    inset: 0;
+    display: flex;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-qc{
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.close-btn{
+ font-size: 20px;
+ width: 27px;
+ height: 27px;
+ border-radius: 50%;
+ position: absolute;
+ top: 5px;
+ right: 6px;
+ cursor: pointer;
+}

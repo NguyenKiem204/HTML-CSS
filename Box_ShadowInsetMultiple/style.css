@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: #23242e;
+    /* box-shadow: inset 20px 20px 10px red; đổ bóng bên trong */
+    box-shadow: 20px 20px 6px rgba(0,0,0,.7), inset 20px 20px 10px red, 30px 30px 6px rgba(39, 192, 37, 0.7), 40px 40px 6px rgba(198, 7, 227, 0.7);
+}

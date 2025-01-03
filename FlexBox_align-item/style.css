@@ -1,0 +1,19 @@
+.container{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    /* - stretch: giá trị mặc định flow theo chiều cao nhất 
+    - flex-start: nó giồn lên đầu
+    - flex-end: dồn xuống
+    - center: căn giữa chiều cao
+    - baseline: nó căn theo cái đường cơ sở, là cái đương kẻ của font-size  */
+}
+.item{
+    background: green;
+    color: aliceblue;
+    width: 33%;
+}
+.item:last-child{
+    font-size: 30px;
+}

@@ -1,0 +1,9 @@
+p {
+    font-size: 30px;
+    color: rgb(162, 32, 116);
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

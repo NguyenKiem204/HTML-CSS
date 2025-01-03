@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    list-style: none;
+    height: 53px;
+    /* display: flex; */
+    /* align-items: center; */
+    border-radius: 6px;
+	background-image: linear-gradient(
+		rgb(48, 48, 48) 13%,
+		rgb(30, 30, 30) 40%,
+		#0c0d11 86%
+	);
+    font-size: 17px;
+
+
+
+}
+.menu .icon{
+    position: absolute;
+    right: 8px;
+}
+.menu li:first-child{
+    margin-left: 300px;
+}
+.menu li{
+    display: inline-block;
+    min-width: 150px;
+    height: 53px;
+    padding: 8px 20px;
+    /* padding: 20px 30px; */
+    padding-top: 15px;
+    border-left: 2px solid rgb(60, 60, 60);
+    position: relative;
+    cursor: pointer;
+    
+}
+.menu li:last-child{
+    border-right: 2px solid rgb(60, 60, 60);
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menu .subicon{
+    background-color: red;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    color: aliceblue;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: auto;
+}
+.menu li:hover{
+  /* background-color: #fff; */
+  a{
+    color: #fff;
+    font-size: 18px;
+  }
+  .subicon{
+    background-color: red;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: none;
+    border: 2px solid #eee;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top:-14px;
+    right: -5px;
+  }
+}

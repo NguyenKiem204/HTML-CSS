@@ -1,0 +1,11 @@
+.box::before{
+    content: "Nội dung phía trước (inline)";
+}
+.box::after{
+    content: "";/*bắt buộc phải có*/
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}

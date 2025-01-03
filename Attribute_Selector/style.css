@@ -1,0 +1,21 @@
+/* a[href]{
+    font-size: 20px;
+    color: red;
+} */
+
+/* [lang="vi"]{
+    color:green;
+    font-size: 40px;
+    font-weight: 600;
+} */
+
+a[title~=Nguyen][title~=Kiem]{
+    color:green;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p[lang|="en"]{
+    font-size: 30px;
+    color: red;
+}

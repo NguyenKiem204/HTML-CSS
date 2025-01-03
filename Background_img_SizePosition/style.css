@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 300px;;
+    border: 3px dotted #ccc;
+    margin: 20px;
+    background-image: url(https://giupban.com.vn/wp-content/uploads/1597308998_Hinh-anh-que-huong-dat-nuoc-con-nguoi-Viet-Nam.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 100%; giống với cover bằng với kích thước thật của ảnh */
+    /* background-size: 300px 200px; */
+
+    background-size: 800px;
+    /* background-position: top left; */
+    /* background-position: bottom center; (left/top/right/center)+center không có center nó cg tự hiểu */
+    /* background-position: -30% 100%; chiều ngang và chiều cao  */
+    background-position: 30px 0px;
+}

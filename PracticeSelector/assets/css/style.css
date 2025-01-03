@@ -1,0 +1,36 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 25px;
+    
+}
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+.desc {
+    font-size: 20px;
+    font-weight: 300;
+    list-style: none;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.btn {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(219, 56, 205);
+    color: white;
+    transition: 0.25;
+}
+.btn:hover {
+    color: brown;
+    background-color: aliceblue;
+
+}

@@ -1,0 +1,19 @@
+.heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.heading::before{
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 20px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}

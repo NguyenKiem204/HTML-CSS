@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng hash, id trong href</title>
+</head>
+<body>
+    <h1>Installation</h1>
+    <ul>
+        <li>
+            <a href="#meet-laravel">Meet Laravel</a>
+            <ul>
+                <li><a href="#why-laravel">Why Laravel?</a></li>
+            </ul>
+        </li>
+        <li><a href="#creating-laravel">Creating a Laravel Project</a></li>
+        <li>
+            <a href="#innitial-laravel">Initial Configuration</a>
+            <ul>
+                <li><a href="#environment-laravel">Environment Based Configuration</a></li>
+                <li><a href="#database-laravel">Databases and Migrations</a></li>
+                <li><a href="#directory-laravel">Directory Configuration</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h2 id = "meet-laravel">Meet Laravel</h2>
+    <p>Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</p>
+    <p>Laravel strives to provide an amazing developer experience while providing powerful features such as thorough dependency injection, an expressive database abstraction layer, queues and scheduled jobs, unit and integration testing, and more.</p>
+    <p>Whether you are new to PHP web frameworks or have years of experience, Laravel is a framework that can grow with you. We'll help you take your first steps as a web developer or give you a boost as you take your expertise to the next level. We can't wait to see what you build.</p>
+    <img width="15%" src="https://anandecor.vn/wp-content/uploads/2019/05/z1349347212982_aeebd7eaf4d7c91d5ec3b275ad0391fd-1024x1024.jpg" alt="">
+    <p>Laravel is incredibly scalable. Thanks to the scaling-friendly nature of PHP and Laravel's built-in support for fast, distributed cache systems like Redis, horizontal scaling with Laravel is a breeze. In fact, Laravel applications have been easily scaled to handle hundreds of millions of requests per month.</p>
+    <h2 id="why-laravel">Why Laravel</h2>
+    <p>There are a variety of tools and frameworks available to you when building a web application. However, we believe Laravel is the best choice for building modern, full-stack web applications.</p>
+    <p><strong>A Progressive Framework</strong></p>
+    <p>We like to call Laravel a "progressive" framework. By that, we mean that Laravel grows with you. If you're just taking your first steps into web development, Laravel's vast library of documentation, guides, and video tutorials will help you learn the ropes without becoming overwhelmed.</p>
+    <h2 id="creating-laravel">Creating a Laravel Project</h2>
+    <p>Before creating your first Laravel project, make sure that your local machine has PHP and Composer installed. If you are developing on macOS, PHP and Composer can be installed in minutes via Laravel Herd. In addition, we recommend installing Node and NPM.</p>
+    <h2 id="innitial-laravel">Initial Configuration</h2>
+    <p>All of the configuration files for the Laravel framework are stored in the config directory. Each option is documented, so feel free to look through the files and get familiar with the options available to you.</p>
+    <p>Laravel needs almost no additional configuration out of the box. You are free to get started developing! However, you may wish to review the config/app.php file and its documentation. It contains several options such as timezone and locale that you may wish to change according to your application.</p>
+    <h2 id="environment-laravel">Environment Based Configuration</h2>
+    <p>Since many of Laravel's configuration option values may vary depending on whether your application is running on your local machine or on a production web server, many important configuration values are defined using the .env file that exists at the root of your application.</p>
+    <h2 id="database-laravel">Databases and Migrations</h2>
+    <p>Now that you have created your Laravel application, you probably want to store some data in a database. By default, your application's <b>.env</b> configuration file specifies that Laravel will be interacting with a MySQL database and will access the database at <b>127.0.0.1</b>.</p>
+    <h2 id="directory-laravel">Directory Configuration</h2>
+    <p>Laravel should always be served out of the root of the "web directory" configured for your web server. You should not attempt to serve a Laravel application out of a subdirectory of the "web directory". Attempting to do so could expose sensitive files present within your application.</p>
+</body>
+</html>

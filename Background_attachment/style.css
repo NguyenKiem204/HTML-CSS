@@ -1,0 +1,31 @@
+body p{
+    font-size: 20px;
+}
+.ctn{
+    margin: 0 auto;
+    width: 800px;
+}
+h1{
+    text-align: center;
+}
+.ctn-1{
+    color: brown;
+    background-color: #ccc;
+    height: 200px;
+    overflow: auto;
+    
+    background-image: url(https://plus.unsplash.com/premium_photo-1681977755496-205f938f7ade?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+}
+.ctn-2{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1713296416394-7889c4955862?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;/* scroll là mặc định ảnh follow theo chuột*/
+}

@@ -1,0 +1,10 @@
+/* :root{
+    --primary-color: red;
+} */
+.box{
+    width: 100px;
+    height: 100px;
+    background: var(--primary-color, orange);
+    border-radius: 20px;
+    margin: 20px auto;
+}

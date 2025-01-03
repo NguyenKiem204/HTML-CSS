@@ -1,0 +1,24 @@
+.container{
+    display: flex; 
+    min-height: 200px;
+    background: greenyellow;
+    align-items: stretch;
+
+
+}
+.item{
+    /* width: 30%; */
+    background: #d2e8fc;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    margin: 4px;
+
+    flex-grow: 1;
+}
+/* .item:nth-child(3){
+    align-self: center; 
+} */
+.item:nth-child(2){
+    flex-grow: 2;
+    /* Lớn gấp 2 lần các item còn lại khi các item còn lại đặt là 1 */
+}

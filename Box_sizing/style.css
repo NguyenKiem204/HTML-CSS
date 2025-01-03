@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid green;
+    background-color: tomato;
+    margin-bottom: 5px;
+}
+.box1{
+    padding: 10px;
+    box-sizing: content-box;
+}
+.box2{
+    padding: 10px;
+    box-sizing: border-box;
+}

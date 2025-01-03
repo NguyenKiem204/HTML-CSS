@@ -1,0 +1,24 @@
+div.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+div.box1 { /* chỉ có một cách viết nào, không dc viết  gộp như thuộc tính border, vd: outline-width: 20px 30px 40px 50px;*/
+    outline-width: 40px; /* nó không ảnh hưởng gì đến thuộc tính bên trong */
+    outline-color: darkkhaki;
+    outline-style: dotted;
+    /* outline-style: solid;
+    outline-offset: 5px; */
+
+}
+div.box2{
+    border-width: 20px 30px 40px 50px;
+    border-color: brown black blue darkviolet;
+    border-style: solid dotted double dashed;
+}
+div.box2 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

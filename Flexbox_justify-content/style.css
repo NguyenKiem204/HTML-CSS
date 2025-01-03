@@ -1,0 +1,17 @@
+.container{
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /* - space-between: đẩy các phần tử xa nhau nhất có thể 
+    - space-around: khoảng cách bên phải của bên trái của các phần tử bằng nhau
+    - space-evenly: Khoảng cách giữa các phần tử bằng nhau**/
+    /* flex-start center flex-end */
+    
+}
+.item{
+    margin-top: 10px;
+    background: green;
+    padding: 10px;
+    color: aliceblue;
+}

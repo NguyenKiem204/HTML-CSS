@@ -1,0 +1,25 @@
+.ctn1{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+body:not(h1){
+    font-size: 22px;
+}
+body {
+    box-sizing: border-box;
+    width: 700px;
+    margin: 0 auto;
+}
+.wbr{
+    word-break: break-all;
+}
+h1{
+    text-shadow: 0px 0px 10px rgba(241, 8, 8, 0.7);
+}
+.txover{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,11 @@
+/* ::selection{ /*Trường này áp dụng cho tất cả các thẻ như * */
+    /* color: ; 
+    background-color: orange;
+} */
+p::selection{
+    background-color: red;
+}
+::marker{
+    color: blueviolet;
+    font-size: 23px;
+}

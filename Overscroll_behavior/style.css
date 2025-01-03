@@ -1,0 +1,16 @@
+.box{
+    border: 3px dashed #333;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    margin: 0 auto;
+    /* overscroll-behavior: auto; {mặc định khi cuộn thanh cuộn bên trong thanh cuộn khi cuộn đến cuối thì thanh cuộn cha cg cuộn theo*/
+    /* overscroll-behavior: contain; cái này cũng khá giống với none nhưng nó có thêm hiệu ứng khi cuộn đến cuối của dt như iphone... nó dùng để ngăn chặn việc cuộn bên trong cuộn */
+    overscroll-behavior: none; /*nó giúp ngăn chặn bị tải lại trang khi chúng ta vuốt lên đầu trang trên phone... */
+}
+body{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    
+}

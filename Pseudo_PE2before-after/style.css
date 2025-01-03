@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.heading{
+    font-size: 50px;
+    margin-top: 80px;
+    position: relative;
+    margin: 20px;
+}
+.heading::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: orange;
+    border-radius: 50%;
+    position: relative;
+    top:-10px;
+    margin-right: 10px;
+}
+.heading::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 330px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 40px;
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+    width: 700px;
+    box-sizing: border-box;
+}
+body:not(h1){
+    font-size: 20px;
+}
+p {
+    letter-spacing: 2px;
+    text-indent: 40px;
+}
+h1{
+    text-align: center;
+    text-decoration: line-through 5px solid;
+    text-transform: capitalize;
+}
